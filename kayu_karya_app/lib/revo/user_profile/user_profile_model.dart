@@ -20,4 +20,32 @@ class UserProfileModel extends FlutterFlowModel<UserProfileWidget> {
   void dispose() {
     unfocusNode.dispose();
   }
+
+  @override
+  Widget build(BuildContext context) {
+    context.watch<UserProfileModel>();
+
+    return Container();
+  }
+    @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Hello World App',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Hello World App'),
+        ),
+        body: Center(
+          child: Text(
+            'Hello World',
+            style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
 }

@@ -19,4 +19,12 @@ class Checkout6Model extends FlutterFlowModel<Checkout6Widget> {
   void dispose() {
     unfocusNode.dispose();
   }
+
+  @override
+  Widget build(BuildContext context) {
+    context.watch<Checkout6Model>();
+
+    return Container();
+  }
+  
 }
