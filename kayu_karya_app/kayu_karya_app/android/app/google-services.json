@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "162774085299",
+    "project_id": "kayukaryaapp",
+    "storage_bucket": "kayukaryaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162774085299:android:e516bc55ba22f2fba6cac6",
+        "android_client_info": {
+          "package_name": "com.flutterflow.kayukarya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyWjCdd5wUHyHrz5_NE8YxegZLJnKUcn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162774085299:android:682ff5d1e9c94bada6cac6",
+        "android_client_info": {
+          "package_name": "com.mycompany.kayukaryaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyWjCdd5wUHyHrz5_NE8YxegZLJnKUcn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
