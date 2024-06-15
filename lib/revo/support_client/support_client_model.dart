@@ -1,13 +1,17 @@
+import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'checkout6_widget.dart' show Checkout6Widget;
+import 'dart:math';
+import 'support_client_widget.dart' show SupportClientWidget;
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-class Checkout6Model extends FlutterFlowModel<Checkout6Widget> {
+class SupportClientModel extends FlutterFlowModel<SupportClientWidget> {
   ///  State fields for stateful widgets in this page.
 
   final unfocusNode = FocusNode();
@@ -19,5 +23,4 @@ class Checkout6Model extends FlutterFlowModel<Checkout6Widget> {
   void dispose() {
     unfocusNode.dispose();
   }
-
 }
